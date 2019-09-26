@@ -1,0 +1,19 @@
+{
+  "title": "Spotless",
+  "body": [
+    {
+      "type": "PostText",
+      "text": "Lorem ipsum dolor sit amet, solet nominavi argumentum mel eu, menandri maiestatis reprehendunt usu et. Per ei volutpat euripidis. Ex eum iisque delicatissimi, blandit elaboraret et qui. Eum consul persius adolescens cu, has ad munere probatus, ad odio graeci diceret est. An his saperet consectetuer mediocritatem, nam nulla eloquentiam ut. Vis no paulo disputationi, dolor tractatos ne eos."
+    },
+    {
+      "type": "PostImage",
+      "link": "telus_diagram1.png",
+      "caption": "This is a caption for the image."
+    },
+    {
+      "type": "PostButton",
+      "text": "visit the site here!",
+      "link": "http://www.google.com"
+    }
+  ]
+}
