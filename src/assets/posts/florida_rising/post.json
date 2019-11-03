@@ -1,5 +1,12 @@
 {
-  "title": "Telus Sky",
+  "title": "Florida Rising",
+  "details": {
+      "Class": "Urban Design Studio, MIT",
+      "Location": "Broward County, Florida",
+      "Time": "2016",
+      "Collaborators": "Ranu Singh, Pamela Bellavita",
+      "Tags": "Sea level rise, Grasshopper, GIS"
+  },
   "body": [
     {
       "type": "PostText",

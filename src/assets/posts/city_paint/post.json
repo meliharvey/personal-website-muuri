@@ -1,0 +1,19 @@
+{
+  "title": "Scout",
+  "details": {
+      "Company": "KPF",
+      "Time": "2019",
+      "Tags": "Threejs, Vuejs"
+  },
+  "body": [
+    {
+      "type": "PostText",
+      "text": "This is an experiment in user interaction design. The concept is that you should be able to give the user the ability to 'paint' cities. This works by giving them a brush to manipulate a data layer that controls density and land use. Then a procedural generation algorithm can determine building size and shape based on that underlying data."
+    },
+    {
+      "type": "PostButton",
+      "text": "visit the site here!",
+      "link": "https://meliharvey.github.io/city_paint/"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Scout",
+  "details": {
+      "Company": "KPF Architects",
+      "Time": "2019",
+      "Tags": "Threejs, D3, Grasshopper"
+  },
+  "body": [
+    {
+      "type": "PostText",
+      "text": "Lorem ipsum dolor sit amet, solet nominavi argumentum mel eu, menandri maiestatis reprehendunt usu et. Per ei volutpat euripidis. Ex eum iisque delicatissimi, blandit elaboraret et qui. Eum consul persius adolescens cu, has ad munere probatus, ad odio graeci diceret est. An his saperet consectetuer mediocritatem, nam nulla eloquentiam ut. Vis no paulo disputationi, dolor tractatos ne eos."
+    },
+    {
+      "type": "PostImage",
+      "link": "scout_solar_exposure.png",
+      "caption": "This is a caption for the image."
+    },
+    {
+      "type": "PostButton",
+      "text": "visit the site here!",
+      "link": "http://kpfui-hawaii.s3-website-us-east-1.amazonaws.com/#/"
+    }
+  ]
+}

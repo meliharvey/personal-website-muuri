@@ -1,0 +1,19 @@
+{
+  "title": "Hive",
+  "details": {
+      "Company": "KPF Architects",
+      "Time": "2019",
+      "Tags": "Mapbox GL, Python, Pandas, GeoPandas"
+  },
+  "body": [
+    {
+      "type": "PostText",
+      "text": "Hive is an interactive web map that allows the user to explore New York City's business activity throughout the 24 hours of the day. The website uses Google Places' data about business opening hours to show you how many businesses are open in each neighborhood. The website also overlays additional information from the Census, and NYC's Pluto dataset."
+    },
+    {
+      "type": "PostButton",
+      "text": "visit the site here!",
+      "link": "https://d3b8obnis7nkco.cloudfront.net/"
+    }
+  ]
+}

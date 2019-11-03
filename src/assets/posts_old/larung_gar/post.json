@@ -1,0 +1,52 @@
+{
+  "title": "Larung Gar",
+  "details": {
+      "Time": "2014",
+      "Tags": "Agent based urbanism, Grasshopper"
+  },
+  "body": [
+    {
+      "type": "PostText",
+      "text": "The Larung Gar Buddhist Institute and the surrounding settlement are an urban agglomeration that defy any standard urban classifications. While it contains many of the components of a traditional Tibetan monastery, its informal organization resembles sprawling informal housing. It’s inhabitants, however, are exclusively celibate monks and nuns attending a 6-13 year ecumenical academic program in Tibetan Buddhism."
+    },
+    {
+      "type": "PostImage",
+      "link": "larung_image1.png",
+      "caption": "The major religious institutions are located in the bottom of the valley."
+    },
+    {
+      "type": "PostImage",
+      "link": "larung_plan.png",
+      "caption": "The major religious institutions are located in the bottom of the valley."
+    },
+    {
+      "type": "PostText",
+      "text": "However, this city and its inhabitants exist in defiance of the Chinese Communist Party (CCP). While it was started in response to education reforms taking place in the early 80’s, it no longer has the State’s amnesty. It has been targeted as a hotbed of anti-Party sentiment and potentially terrorist activity. In 2002, the CCP attempted to demolish it but instead set a growth limit. The settlement is not permitted to grow beyond its current footprint."
+    },
+    {
+      "type": "PostImage",
+      "link": "larung_boids.png",
+      "caption": "The manner in which Larung Gar has grown closely resembles Boid's Algorithm."
+    },
+    {
+      "type": "PostImage",
+      "link": "larung_diagram1.png",
+      "caption": "Buildings colored by footprint size."
+    },
+    {
+      "type": "PostImage",
+      "link": "larung_diagram2.png",
+      "caption": "The slope's impact on building orientation."
+    },
+    {
+      "type": "PostImage",
+      "link": "larung_diagram3.png",
+      "caption": "Dwellings line up with eachother to form a 'grain'."
+    },
+    {
+      "type": "PostImage",
+      "link": "larung_algorithm.png",
+      "caption": "This algorithm integrates these behaviors in an attempt to simulate the settlements structure."
+    }
+  ]
+}

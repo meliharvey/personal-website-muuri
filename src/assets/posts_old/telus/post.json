@@ -1,0 +1,74 @@
+{
+  "title": "Telus Sky",
+  "details": {
+      "Company": "BIG Architects",
+      "Location": "Calgary, CA",
+      "Time": "2014",
+      "Status": "Built",
+      "Tags": "Rhino, Grasshopper"
+  },
+  "body": [
+    {
+      "type": "PostText",
+      "text": "This mixed use tower is an exploration of how a facade system can adapt to different uses. The lower half of the building is office, while the upper half is residential. Therefore, at the bottom the facade needs to provide and efficient glass curtain wall for large office floors. At the top, it folds and corrugates into a serrated facade that allows for balconies and prevents of vis a vis moments between apartments. This allows the building to take on a single identity while expressing the needs of both programs."
+    },
+    {
+      "type": "PostImage",
+      "link": "telus_perspective3.png",
+      "caption": "The corner entrance is accentuated by several protruding rooms. Rendering by Luxigon."
+    },
+    {
+      "type": "PostImage",
+      "link": "telus_siteplan.png",
+      "caption": "The lower portion of the building creates a street wall, but then recedes at the higher floors."
+    },
+    {
+      "type": "PostImage",
+      "link": "telus_floorplans.png",
+      "caption": "This sample of floorplans show the various uses throughout the building."
+    },
+    {
+      "type": "PostImage",
+      "link": "telus_diagram1.png",
+      "caption": "The parametric model was controlled by splines that allowed it to adopt numerous forms."
+    },
+    {
+      "type": "PostImage",
+      "link": "telus_diagram3.png",
+      "caption": "The parametric model was controlled by splines that allowed it to adopt numerous forms."
+    },
+    {
+      "type": "PostText",
+      "text": "One aspect of my role on the team was managing the parametric model that controlled the building massing and facade panelization. This task required building as script that was flexible enough to adjust as the design changed over time. I established a workflow that allowed the geometry to pass from Grasshopper to Revit for the drawing production. The parametric model also controlled dimensional tolerances. By having every panel dimension snap to 2 inch intervals we were able to significantly reduce the amount of unique panels without sacrificing the fluidity of the form."
+    },
+    {
+      "type": "PostImage",
+      "link": "telus_details.png",
+      "caption": "Details showing the hybrid window wall and curtain wall system."
+    },
+    {
+      "type": "PostText",
+      "text": "The facade was implemented using a unique hybrid facade system that included both 'window wall' and 'curtain wall' systems. Window wall panels were used in the recesses and rest on the slabs behind the terraces. Curtain wall panels were hung on the slab edge where the facade is flat, or protruded."
+    },
+    {
+      "type": "PostImage",
+      "link": "telus_money_t_wags.jpg",
+      "caption": "Photograph courtesy of instagram user t_wags."
+    },
+    {
+      "type": "PostImage",
+      "link": "telus_side_BrooksCapewell.jpg",
+      "caption": "Photograph courtesy of Brooks Capewell."
+    },
+    {
+      "type": "PostImage",
+      "link": "telus_side_AdrianGamble.jpg",
+      "caption": "Photograph courtesy of Adrian Gample."
+    },
+    {
+      "type": "PostImage",
+      "link": "telus_money_3_westbank.jpg",
+      "caption": "Photograph courtesy of Westbank."
+    }
+  ]
+}

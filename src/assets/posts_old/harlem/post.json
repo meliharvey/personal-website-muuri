@@ -1,0 +1,46 @@
+{
+  "title": "Telus Sky",
+  "details": {
+      "Company": "BIG Architects",
+      "Location": "New York City",
+      "Time": "2015",
+      "Status": "Under Construction",
+      "Tags": "Affordable housing, Revit, Grasshopper, VRay"
+  },
+  "body": [
+    {
+      "type": "PostText",
+      "text": "Lorem ipsum dolor sit amet, solet nominavi argumentum mel eu, menandri maiestatis reprehendunt usu et. Per ei volutpat euripidis. Ex eum iisque delicatissimi, blandit elaboraret et qui. Eum consul persius adolescens cu, has ad munere probatus, ad odio graeci diceret est. An his saperet consectetuer mediocritatem, nam nulla eloquentiam ut. Vis no paulo disputationi, dolor tractatos ne eos."
+    },
+    {
+      "type": "PostImage",
+      "link": "harlem_ground.jpg",
+      "caption": "This is a caption for the image."
+    },
+    {
+      "type": "PostImage",
+      "link": "harlem_roof.jpg",
+      "caption": "This is a caption for the image."
+    },
+    {
+      "type": "PostImage",
+      "link": "harlem_North Unit_Bedroom.jpg",
+      "caption": "This is a caption for the image."
+    },
+    {
+      "type": "PostImage",
+      "link": "harlem_Corner Unit_Truss.jpg",
+      "caption": "This is a caption for the image."
+    },
+    {
+      "type": "PostImage",
+      "link": "harlem_North Unit_Livingroom.jpg",
+      "caption": "This is a caption for the image."
+    },
+    {
+      "type": "PostImage",
+      "link": "harlem_North Unit_Bedroom.jpg",
+      "caption": "This is a caption for the image."
+    }
+  ]
+}

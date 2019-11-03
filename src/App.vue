@@ -58,7 +58,7 @@
               <div>
                 <p class="m-0">Downloads:</p>
 
-                <b-button variant="outline-dark" :href="download('DeeHarvey_CV_2019.pdf')" target='_blank' class="my-1">Resume</b-button>
+                <b-button variant="outline-dark" :href="download('MeliHarvey_CV_2019.pdf')" target='_blank' class="my-1">Resume</b-button>
                 <!-- <br>
                 <b-button variant="outline-dark" class="my-1">Work Sample</b-button> -->
               </div>
@@ -103,22 +103,23 @@
 import Vue from 'vue'
 import AboutCard from './components/AboutCard.vue'
 import WritingCard from './components/WritingCard.vue'
-import ArchitectureCard from './components/ArchitectureCard.vue'
-import WebsiteCard from './components/WebsiteCard.vue'
+import DesignCard from './components/DesignCard.vue'
+import TechCard from './components/TechCard.vue'
 import data from './data/data.js'
 import Muuri from 'muuri'
+import animate from 'web-animations-js'
 
 export default {
   name: 'app',
   components: {
     AboutCard,
-    ArchitectureCard,
-    WebsiteCard,
+    DesignCard,
+    TechCard,
     WritingCard
   },
   data () {
     return {
-      mobile: false,
+      isMobile: false,
       data: data,
       grid: null,
       cards: {
@@ -127,13 +128,13 @@ export default {
           visible: true,
           selected: false
         },
-        architecture: {
+        design: {
           name: 'Design',
           visible: true,
           selected: false
         },
-        website: {
-          name: 'Websites',
+        tech: {
+          name: 'Tech',
           visible: true,
           selected: false
         },
@@ -157,6 +158,16 @@ export default {
     }
   },
   methods: {
+    checkMobile: function() {
+      var width = window.innerWidth;
+
+      if (width <= 768) {
+        this.isMobile = true;
+      } else {
+        this.isMobile = false;
+      }
+      console.log(this.isMobile)
+    },
     download: function(file) {
       return require('./assets/' + file)
     },
@@ -228,10 +239,17 @@ export default {
       this.grid.refreshItems().layout()
     }
   },
+  created: function() {
+    window.addEventListener('resize', this.checkMobile)
+    this.checkMobile();
+  },
   mounted: function() {
 
+    var self = this;
+
     var grid = new Muuri('.grid', {
-      dragEnabled: true,
+      // if a mobile device disable grid
+      dragEnabled: !this.isMobile,
       dragSortHeuristics: {
         sortInterval: 0,
       },
@@ -366,10 +384,10 @@ b-button {
 .about {
   color: $blue !important;
 }
-.architecture {
+.design {
   color: $yellow !important;
 }
-.website {
+.tech {
   color: $pink !important;
 }
 .writing {

@@ -1,5 +1,10 @@
 {
   "title": "Scout",
+  "details": {
+      "Company": "KPF Architects",
+      "Time": "2019",
+      "Tags": "Threejs, D3, Grasshopper"
+  },
   "body": [
     {
       "type": "PostText",
@@ -13,7 +18,7 @@
     {
       "type": "PostButton",
       "text": "visit the site here!",
-      "link": "http://kpfui-hawaii.s3-website-us-east-1.amazonaws.com/#/"
+      "link": "https://d1v3sh18o425rz.cloudfront.net/#/"
     }
   ]
 }

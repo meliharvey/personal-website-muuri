@@ -1,5 +1,10 @@
 {
   "title": "Boat House",
+  "details": {
+      "Location": "Upstate, NY",
+      "Time": "2012",
+      "Tags": "Rhino, Photoshop"
+  },
   "body": [
     {
       "type": "PostText",

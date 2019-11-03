@@ -1,0 +1,29 @@
+{
+  "title": "Boat House",
+  "details": {
+      "Location": "Upstate, NY",
+      "Time": "2012",
+      "Tags": "Rhino, Photoshop"
+  },
+  "body": [
+    {
+      "type": "PostText",
+      "text": "The most memorable aspect this lakeside site was a shale cliff hemmed by a thin stony beach. In order to preserve this untouched shoreline, the design attempts to counter the typical building-site relationship as observed in nearby houses. Instead of setting the house into the terrain, it bridges over it. This form allows for both of the required program; 1) an enclosed viewing room set atop a dramatic cliff, and 2) a boat house at the waters edge. This re-conception of the two pavilions as one, also allows for circulation and access down to the shoreline."
+    },
+    {
+      "type": "PostImage",
+      "link": "boat_house_diagram1.png",
+      "caption": "The approach to the side is meant to facilitate access to the water."
+    },
+    {
+      "type": "PostImage",
+      "link": "boat_house_diagram2.png",
+      "caption": "Diagrams show building use, structure, and circulation."
+    },
+    {
+      "type": "PostImage",
+      "link": "boat_house_perspective1.png",
+      "caption": "The view from the lakeside."
+    }
+  ]
+}

@@ -1,5 +1,12 @@
 {
   "title": "Telus Sky",
+  "details": {
+      "Company": "BIG Architects",
+      "Location": "Calgary, CA",
+      "Time": "2014",
+      "Status": "Built",
+      "Tags": "Rhino, Grasshopper"
+  },
   "body": [
     {
       "type": "PostText",
@@ -7,8 +14,8 @@
     },
     {
       "type": "PostImage",
-      "link": "telus_perspective3.png",
-      "caption": "The corner entrance is accentuated by several protruding rooms."
+      "link": "telus_perspective3.jpg",
+      "caption": "The corner entrance is accentuated by several protruding rooms. Rendering by Luxigon."
     },
     {
       "type": "PostImage",
@@ -36,7 +43,7 @@
     },
     {
       "type": "PostImage",
-      "link": "telus_details.png",
+      "link": "telus_details_cropped.jpg",
       "caption": "Details showing the hybrid window wall and curtain wall system."
     },
     {
@@ -50,7 +57,7 @@
     },
     {
       "type": "PostImage",
-      "link": "telus_side_BrooksCapewell.jpg",
+      "link": "telus_side_BrooksCapewell_cropped.jpg",
       "caption": "Photograph courtesy of Brooks Capewell."
     },
     {

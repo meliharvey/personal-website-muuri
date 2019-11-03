@@ -1,39 +1,55 @@
 {
   "title": "Telus Sky",
+  "details": {
+      "Company": "BIG Architects",
+      "Location": "New York City",
+      "Time": "2015",
+      "Status": "Under Construction",
+      "Tags": "Affordable housing, Revit, Grasshopper, VRay"
+  },
   "body": [
     {
       "type": "PostText",
-      "text": "Lorem ipsum dolor sit amet, solet nominavi argumentum mel eu, menandri maiestatis reprehendunt usu et. Per ei volutpat euripidis. Ex eum iisque delicatissimi, blandit elaboraret et qui. Eum consul persius adolescens cu, has ad munere probatus, ad odio graeci diceret est. An his saperet consectetuer mediocritatem, nam nulla eloquentiam ut. Vis no paulo disputationi, dolor tractatos ne eos."
+      "text": "This 233 unit housing project utilizes a one of a kind facade geometry while also supplying 20% of affordable housing units to the neighborhood of Harlem. One of the challenges was integrating the affordable units into the building to make an inclusive environment for all of the tenants. Another challenge was create a facade system that could fit to the double-curved surface of the facade while also allowing for planar operable windows. The solution was an innovative curtain wall system that using faceting in the solid panels to allow the window planels to be planar. One of my roles was managing this geometry and the interoperability between Grasshopper and Revit."
     },
     {
       "type": "PostImage",
-      "link": "harlem_ground.jpg",
-      "caption": "This is a caption for the image."
+      "link": "harlem_ground_small.jpg",
+      "caption": "Rendering by bloomimages."
+    },
+    {
+      "type": "PostImage",
+      "link": "harlem_south_small.jpg",
+      "caption": "Rendering by bloomimages."
+    },
+    {
+      "type": "PostText",
+      "text": "This was a project on a through block site made all the more challenging by the fact that it had to be built on top of an existing building whose tenants had to remain throughout the construction process. The solution to this proplem was building a t-shaped, doubled loaded corridor building that warped and cantilevered over the existing building. The six columns that support the cantilevered T portion of the building thread through the existing building without touching or impacting any of the existing structure or mechanical systems."
     },
     {
       "type": "PostImage",
       "link": "harlem_roof.jpg",
-      "caption": "This is a caption for the image."
+      "caption": "Rendering by bloomimages."
     },
     {
       "type": "PostImage",
       "link": "harlem_North Unit_Bedroom.jpg",
-      "caption": "This is a caption for the image."
+      "caption": "Rendering by Meli Harvey."
     },
     {
       "type": "PostImage",
       "link": "harlem_Corner Unit_Truss.jpg",
-      "caption": "This is a caption for the image."
+      "caption": "Rendering by Meli Harvey."
     },
     {
       "type": "PostImage",
       "link": "harlem_North Unit_Livingroom.jpg",
-      "caption": "This is a caption for the image."
+      "caption": "Rendering by Meli Harvey."
     },
     {
       "type": "PostImage",
       "link": "harlem_North Unit_Bedroom.jpg",
-      "caption": "This is a caption for the image."
+      "caption": "Rendering by Meli Harvey."
     }
   ]
 }

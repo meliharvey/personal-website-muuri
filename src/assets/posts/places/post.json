@@ -1,0 +1,50 @@
+{
+  "title": "Places",
+  "details": {
+      "Company": "KPF Architects",
+      "Location": "New York City",
+      "Time": "2018",
+      "Tags": "Python, Pandas, GeoPandas"
+  },
+  "body": [
+    {
+      "type": "PostText",
+      "text": "This data oriented research was done as a proposal for the Urban Design Forum. The core question in this research was how do activites in New York City change throughout the 24 hours of the day. In order to explore this topic, I used Google's business dataset that you may be most familiar with from Google Maps."
+    },
+    {
+      "type": "PostImage",
+      "link": "places_mobile.png",
+      "caption": "Google makes a significant amount of their business data available on the Google Places API."
+    },
+    {
+      "type": "PostImage",
+      "link": "places_extractor.gif",
+      "caption": "Through a recursive algorithm, I was able to get all of the places for New York City."
+    },
+    {
+      "type": "PostImage",
+      "link": "places_points.png",
+      "caption": "Here is a map showing every business in Googles dataset."
+    },
+    {
+      "type": "PostImage",
+      "link": "places_fidi.gif",
+      "caption": "The number of open businesses on each street for every hour of the day."
+    },
+    {
+      "type": "PostImage",
+      "link": "places_east_village.png",
+      "caption": "The number of open businesses on each street for every hour of the day."
+    },
+    {
+      "type": "PostImage",
+      "link": "places_times.png",
+      "caption": "The density of places for noon and 9pm."
+    },
+    {
+      "type": "PostImage",
+      "link": "places_disparity.png",
+      "caption": "The disparity between the number of businesses open during the daytime and nighttime."
+    }
+  ]
+}

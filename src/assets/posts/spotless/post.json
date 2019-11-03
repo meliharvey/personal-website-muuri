@@ -1,9 +1,15 @@
 {
   "title": "Spotless",
+  "details": {
+      "Company": "KPF Architects",
+      "Location": "New York City",
+      "Time": "2019",
+      "Tags": "Mapbox GL, Python, GeoPandas"
+  },
   "body": [
     {
       "type": "PostText",
-      "text": "Lorem ipsum dolor sit amet, solet nominavi argumentum mel eu, menandri maiestatis reprehendunt usu et. Per ei volutpat euripidis. Ex eum iisque delicatissimi, blandit elaboraret et qui. Eum consul persius adolescens cu, has ad munere probatus, ad odio graeci diceret est. An his saperet consectetuer mediocritatem, nam nulla eloquentiam ut. Vis no paulo disputationi, dolor tractatos ne eos."
+      "text": "The impact of autonomous vehicles on our current parking lots is unknown. However, if the need for some of our parking lots were obviated by AV's there would be significant real estate in New York City that could be converted to new uses. This app allows the user to generate different scenarios reflecting the uncertainty of what will happen with AV's. They can both toggle the amount of parking lots no longer required, as well as what uses replace those parking lots."
     },
     {
       "type": "PostImage",
@@ -13,7 +19,7 @@
     {
       "type": "PostButton",
       "text": "visit the site here!",
-      "link": "http://www.google.com"
+      "link": "http://www.spotlessnewyork.com"
     }
   ]
 }

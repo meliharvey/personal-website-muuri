@@ -1,0 +1,20 @@
+{
+  "title": "City Generator",
+  "details": {
+      "Company": "KPF",
+      "Time": "2018",
+      "Collaborators": "Jason Danforth, Luc Wilson",
+      "Tags": "Grasshopper, Python, C#, RhinoCommon"
+  },
+  "body": [
+    {
+      "type": "PostText",
+      "text": "City generator is a tool for generating urban designs automatically. This allows for the exploration of thousands of potential design options for a site that can be evaluated by a series of analysis tools."
+    },
+    {
+      "type": "PostImage",
+      "link": "metrics_diagrams.png",
+      "caption": "These images represent each of the metrics used to analyze urban options."
+    }
+  ]
+}

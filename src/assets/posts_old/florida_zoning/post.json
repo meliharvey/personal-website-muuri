@@ -1,0 +1,45 @@
+{
+  "title": "Florida Zoning",
+  "details": {
+      "Class": "Urban Design Studio, MIT",
+      "Location": "Broward County, Florida",
+      "Time": "2016",
+      "Collaborators": "Ranu Singh, Pamela Bellavita",
+      "Tags": "Sea level rise, Grasshopper, GIS"
+  },
+  "body": [
+    {
+      "type": "PostText",
+      "text": "Lorem ipsum dolor sit amet, solet nominavi argumentum mel eu, menandri maiestatis reprehendunt usu et. Per ei volutpat euripidis. Ex eum iisque delicatissimi, blandit elaboraret et qui. Eum consul persius adolescens cu, has ad munere probatus, ad odio graeci diceret est. An his saperet consectetuer mediocritatem, nam nulla eloquentiam ut. Vis no paulo disputationi, dolor tractatos ne eos."
+    },
+    {
+      "type": "PostImage",
+      "link": "florida_zoning1.png",
+      "caption": "This is a caption for the image."
+    },
+    {
+      "type": "PostImage",
+      "link": "florida_zoning2.png",
+      "caption": "This is a caption for the image."
+    },
+    {
+      "type": "PostText",
+      "text": "Lorem ipsum dolor sit amet, solet nominavi argumentum mel eu, menandri maiestatis reprehendunt usu et. Per ei volutpat euripidis. Ex eum iisque delicatissimi, blandit elaboraret et qui. Eum consul persius adolescens cu, has ad munere probatus, ad odio graeci diceret est. An his saperet consectetuer mediocritatem, nam nulla eloquentiam ut. Vis no paulo disputationi, dolor tractatos ne eos."
+    },
+    {
+      "type": "PostImage",
+      "link": "florida_zoning3.png",
+      "caption": "This is a caption for the image."
+    },
+    {
+      "type": "PostImage",
+      "link": "florida_zoning4.png",
+      "caption": "This is a caption for the image."
+    },
+    {
+      "type": "PostImage",
+      "link": "florida_zoning5.png",
+      "caption": "This is a caption for the image."
+    }
+  ]
+}

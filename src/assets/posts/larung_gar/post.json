@@ -1,10 +1,10 @@
 {
-  "title": "Scout",
+  "title": "Larung Gar",
+  "details": {
+      "Time": "2014",
+      "Tags": "Agent based urbanism, Grasshopper"
+  },
   "body": [
-    {
-      "type": "PostText",
-      "text": "Sichuan China | 2014"
-    },
     {
       "type": "PostText",
       "text": "The Larung Gar Buddhist Institute and the surrounding settlement are an urban agglomeration that defy any standard urban classifications. While it contains many of the components of a traditional Tibetan monastery, its informal organization resembles sprawling informal housing. It’s inhabitants, however, are exclusively celibate monks and nuns attending a 6-13 year ecumenical academic program in Tibetan Buddhism."
