@@ -1,19 +1,7 @@
-# personal-website
+# personal-website-muuri
 
-> A Vue.js project
+This the personal website of Meli Harvey. The website uses a box packing js library called Muuri that is used to organize and animate projects on the page.
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
-# Meli's Personal Website
+### Links
+See [www.meliharvey.com](https://www.meliharvey.com/).
+See [Muuri](https://https://haltu.github.io/muuri/).
