@@ -1,7 +1,7 @@
 {
   "title": "City Generator",
   "details": {
-      "Company": "KPF",
+      "Company": "KPF, WeWork",
       "Time": "2018",
       "Collaborators": "Jason Danforth, Luc Wilson",
       "Tags": "Grasshopper, Python, C#, RhinoCommon"
@@ -10,6 +10,34 @@
     {
       "type": "PostText",
       "text": "City generator is a tool for generating urban designs automatically. This allows for the exploration of thousands of potential design options for a site that can be evaluated by a series of analysis tools."
+    },
+    {
+      "type": "PostImage",
+      "link": "CityGenerator_Model.png",
+      "caption": "Attributes and geometry are passed through the inheritance tree from object to object."
+    },
+    {
+      "type": "PostText",
+      "text": "The model is comprised of object classes that represent different elements in an urban plan. Each object passes particular attributes and geometry to their child objects creating what is a model for procedural generation that is reactive."
+    },
+    {
+      "type": "PostImage",
+      "link": "CityGenerator_ToolPanel.png",
+      "caption": "A tool panel in Grasshopper allows for easy object instantiation and method access."
+    },
+    {
+      "type": "PostText",
+      "text": "While the ultimate goal was to move this system to a cloud computing platform utilizing Rhino Compute, the first step was to build it in the Rhino/Grasshopper environment with RhinoCommon. The result of this process was a grasshopper plugun that pushed custom classes between components."
+    },
+    {
+      "type": "PostImage",
+      "link": "CityGenerator_ToolDescriptions.png",
+      "caption": "Descriptions of each component."
+    },
+    {
+      "type": "PostImage",
+      "link": "network_offset_fast.gif",
+      "caption": "A network graph is iterated over to make blocks, which can then be offset by parent street class."
     },
     {
       "type": "PostImage",

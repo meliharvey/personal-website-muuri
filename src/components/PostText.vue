@@ -1,5 +1,5 @@
 <template>
-  <div class="text-justify py-3 m-0">
+  <div class="text-justify py-5 m-0">
       <p>{{ data.text }}</p>
   </div>
 </template>
