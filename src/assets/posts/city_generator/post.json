@@ -36,8 +36,28 @@
     },
     {
       "type": "PostImage",
-      "link": "network_offset_fast.gif",
+      "link": "CityGenerator_Offset.gif",
+      "caption": "A robust offsetting algorithm ensures quality results regardless of geometry."
+    },
+    {
+      "type": "PostImage",
+      "link": "CityGenerator_Walkshed.gif",
+      "caption": "The street network is a graph that can having routing operations performed on it like walksheds."
+    },
+    {
+      "type": "PostImage",
+      "link": "CityGenerator_Network2Blocks.gif",
       "caption": "A network graph is iterated over to make blocks, which can then be offset by parent street class."
+    },
+    {
+      "type": "PostImage",
+      "link": "CityGeneratior_BuildingTypes.gif",
+      "caption": "A single building class can represent many building types depending on the parameters used."
+    },
+    {
+      "type": "PostImage",
+      "link": "CityGenerator_WeddingCake.gif",
+      "caption": "Dynamic building types can be deployed across blocks."
     },
     {
       "type": "PostImage",
