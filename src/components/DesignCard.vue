@@ -102,7 +102,7 @@ img {
   min-height: 300px;
   margin: 15px;
   box-sizing: border-box;
-  transition: width .8s ease, height .8s ease;
+  transition: width .5s ease, height .5s ease;
 }
 .expanded {
   width: 95% !important;
@@ -115,7 +115,7 @@ img {
 .design-card-header {
   height: 300px;
   overflow: hidden;
-  transition: width .8s ease, height .8s ease;
+  transition: width .5s ease, height .5s ease;
 }
 .design-card-header-expanded {
   height: 550px !important;

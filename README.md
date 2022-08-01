@@ -5,3 +5,9 @@ This the personal website of Meli Harvey. The website uses a box packing js libr
 ### Links
 See [www.meliharvey.com](https://www.meliharvey.com/).
 See [Muuri](https://https://haltu.github.io/muuri/).
+
+### Develop
+npm run dev
+
+### Build
+npm run build

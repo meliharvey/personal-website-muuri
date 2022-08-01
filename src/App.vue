@@ -58,7 +58,7 @@
               <div>
                 <p class="m-0">Downloads:</p>
 
-                <b-button variant="outline-dark" :href="download('MeliHarvey_CV_2019.pdf')" target='_blank' class="my-1">Resume</b-button>
+                <b-button variant="outline-dark" :href="download('MeliHarvey_CV_2022.pdf')" target='_blank' class="my-1">Resume</b-button>
                 <!-- <br>
                 <b-button variant="outline-dark" class="my-1">Work Sample</b-button> -->
               </div>
@@ -259,7 +259,7 @@ export default {
         alignRight: false
       },
       layoutOnResize: 0,
-      layoutDuration: 1000,
+      layoutDuration: 500,
     });
 
     // When all items have loaded refresh their
