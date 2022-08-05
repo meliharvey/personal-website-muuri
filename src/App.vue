@@ -56,7 +56,7 @@
               <div class="p-3"></div>
 
               <div>
-                <p class="m-0">Downloads:</p>
+                <p class="m-0">Downloads</p>
 
                 <b-button variant="outline-dark" :href="download('MeliHarvey_CV_2022.pdf')" target='_blank' class="my-1">Resume</b-button>
                 <!-- <br>
