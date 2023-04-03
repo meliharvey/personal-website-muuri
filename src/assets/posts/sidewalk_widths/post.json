@@ -1,0 +1,28 @@
+{
+  "title": "Sidewalk Widths",
+  "details": {
+      "Location": "New York, NY",
+      "Time": "2020",
+      "Tags": "Python, Mapbox, Opensource"
+  },
+  "body": [
+    {
+      "type": "PostText",
+      "text": "The pandemic initiated a rethinking of the ways that we use public space. Almost overnight, everyone became aware of how sidewalk widths influenced their ability to maintain social distance. As the pandemic progressed, sidewalks would become important sites for street dining, food delivery, socializing, and play. The project sidewalkwidth.nyc sparked a discussion on the use of public space in NYC, and ultimately contributed to the city passing the Open Streets legitlation that converted miles of city streets to pedestrian uses."
+    },
+    {
+      "type": "PostButton",
+      "text": "www.sidewalkwidths.nyc",
+      "link": "https://sidewalkwidths.nyc"
+    },
+    {
+      "type": "PostText",
+      "text": "The impact of sidewalkwidths.nyc didn't stop there. A host of advocates from around the world used Meli's open source project to create sidewalk widths maps for their own cities. Using the map, many of them advocated for more street space for pedestrians and bikes."
+    },
+    {
+      "type": "PostButton",
+      "text": "www.sidewalkwidths.com",
+      "link": "https://sidewalkwidths.com"
+    }
+  ]
+}

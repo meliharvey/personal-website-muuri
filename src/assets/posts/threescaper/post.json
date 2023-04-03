@@ -1,0 +1,24 @@
+{
+  "title": "Sidewalk Widths",
+  "details": {
+      "Location": "New York, NY",
+      "Time": "2022",
+      "Tags": "Python, Mapbox, Opensource"
+  },
+  "body": [
+    {
+      "type": "PostText",
+      "text": "When Oskar Stålberg created the award winning city creation game Townscaper, he didn't allow the player to step down from their god-like perspective to walk around and explore their creations. In response, I created Threescaper, a web tool built with three.js that allows you to upload your town with a simple drag and drop, and then explore it in first person view."
+    },
+    {
+      "type": "PostButton",
+      "text": "Explore Threescaper!",
+      "link": "https://meliharvey.github.io/threescaper/"
+    },
+    {
+      "type": "PostButton",
+      "text": "github",
+      "link": "https://github.com/meliharvey/threescaper"
+    }
+  ]
+}

@@ -2,16 +2,16 @@ const data = [
   {
     "type": "about",
     "title": "Mission",
-    "body": "Meli is committed to making the process of urban development more inclusive and sustainable. Her focus is rethinking how the relationship between land use, mobility, and public realm design can create healthy communities and mitigate climate change.",
+    "body": "Meli is committed to using technology to make the process of urban development more inclusive and sustainable. Her focus is rethinking how the relationship between land use, mobility, and public realm design can create healthy communities and mitigate climate change.",
     "hasPost": false
   },
   {
     "type": "tech",
-    "title": "Urban Generator",
-    "body": "I'm an urban planner, architect, web developer, and entrepreneur.",
-    "image": "city_generator_optimized.gif",
+    "title": "Sidewalk Widths",
+    "body": "",
+    "image": "sidewalks_nyc.png",
     "hasPost": true,
-    "postLocation": "city_generator"
+    "postLocation": "sidewalk_widths"
   },
   {
     "type": "design",
@@ -30,6 +30,14 @@ const data = [
     "postLocation": "harlem"
   },
   {
+    "type": "tech",
+    "title": "Urban Generator",
+    "body": "",
+    "image": "city_generator_optimized.gif",
+    "hasPost": true,
+    "postLocation": "city_generator"
+  },
+  {
     "type": "writing",
     "title": "After Retreat: Buyout Programs and Local Planning Goals after Hurricane Sandy",
     "body": "This paper won the Top Thesis Prize for MIT DUSP's class of 2017. It documented the contentious efforts of New York and New Jersey to purchase badly damaged homes after Hurricane Sandy. The paper studies how county and municipal governments were, or were not, able to leverage buyouts for local planning agendas.",
@@ -39,11 +47,26 @@ const data = [
   },
   {
     "type": "tech",
-    "title": "Scout",
-    "body": "I'm an urban planner, architect, web developer, and entrepreneur.",
-    "image": "scout_whole_site.png",
+    "title": "Delve",
+    "body": "",
+    "image": "delve.png",
     "hasPost": true,
-    "postLocation": "scout"
+    "postLocation": "delve"
+  },
+  {
+    "type": "tech",
+    "title": "Night Shift",
+    "body": "",
+    "image": "places_midtown_cropped.gif",
+    "hasPost": true,
+    "postLocation": "places"
+  },
+  {
+    "type": "about",
+    "title": "Bio",
+    "body": "Amelia (Meli) has a background in urban planning, regional planning, public policy, architecture, computational design, software development, web development, entrepreneurship, digital fabrication, and sculpture. This noxious brew of vocations has given her a trans-disciplinary approach to problem solving that's equally rooted in design, policy, and product development.",
+    "image": "headshot_2019.jpg",
+    "hasPost": false
   },
   {
     "type": "design",
@@ -55,26 +78,19 @@ const data = [
   },
   {
     "type": "tech",
-    "title": "City Paint",
-    "body": "I'm an urban planner, architect, web developer, and entrepreneur.",
-    "image": "city_paint.png",
+    "title": "Threescaper",
+    "body": "",
+    "image": "threescaper.png",
     "hasPost": true,
-    "postLocation": "city_paint"
-  },
-  {
-    "type": "about",
-    "title": "Bio",
-    "body": "Amelia (Meli) has a background in urban planning, regional planning, public policy, architecture, computational design, software development, web development, entrepreneurship, digital fabrication, and sculpture. This noxious brew of vocations has given her a trans-disciplinary approach to problem solving that's equally rooted in design, policy, and product development.",
-    "image": "headshot_2019.jpg",
-    "hasPost": false
+    "postLocation": "threescaper"
   },
   {
     "type": "tech",
-    "title": "Places Research",
-    "body": "I'm an urban planner, architect, web developer, and entrepreneur.",
-    "image": "places_midtown_cropped.gif",
+    "title": "Triceratops",
+    "body": "",
+    "image": "triceratops.jpg",
     "hasPost": true,
-    "postLocation": "places"
+    "postLocation": "triceratops"
   },
   {
     "type": "writing",
@@ -85,6 +101,14 @@ const data = [
     "postLocation": "curbd"
   },
   {
+    "type": "tech",
+    "title": "City Paint",
+    "body": "",
+    "image": "city_paint.png",
+    "hasPost": true,
+    "postLocation": "city_paint"
+  },
+  {
     "type": "design",
     "title": "Florida Zoning",
     "body": "",
@@ -93,9 +117,15 @@ const data = [
     "postLocation": "florida_zoning"
   },
   {
+    "type": "about",
+    "title": "Education",
+    "body": "Amelia has a Master in City Planning from MIT and a Bachelor of Architecture from Syracuse University. Please download the her resume from the menu for a full list of education, experience and accomplishments.",
+    "hasPost": false
+  },
+  {
     "type": "tech",
     "title": "Hive",
-    "body": "I'm an urban planner, architect, web developer, and entrepreneur.",
+    "body": "",
     "image": "hive_animation_cropped.gif",
     "hasPost": true,
     "postLocation": "hive"
@@ -109,26 +139,20 @@ const data = [
     "postLocation": "boat_house"
   },
   {
+    "type": "tech",
+    "title": "Spotless",
+    "body": "",
+    "image": "spotless.png",
+    "hasPost": true,
+    "postLocation": "spotless"
+  },
+  {
     "type": "writing",
     "title": "Infinite Suburbia",
     "body": "This book is a compendium of work by 55 contributing authors that describes the state, and potential futures, of the worlds suburban environments. Meli worked on the editing team at the Leventhal Center for Advancded Urbanism at MIT.",
     "image": "infinite_suburbia.jpg",
     "hasPost": true,
     "postLocation": "infinite_suburbia"
-  },
-  {
-    "type": "tech",
-    "title": "Spotless",
-    "body": "I'm an urban planner, architect, web developer, and entrepreneur.",
-    "image": "spotless.png",
-    "hasPost": true,
-    "postLocation": "spotless"
-  },
-  {
-    "type": "about",
-    "title": "Education",
-    "body": "Amelia has a Master in City Planning from MIT and a Bachelor of Architecture from Syracuse University. Please download the her resume from the menu for a full list of education, experience and accomplishments.",
-    "hasPost": false
   },
   {
     "type": "design",

@@ -1,0 +1,24 @@
+{
+  "title": "Triceratops",
+  "details": {
+      "Location": "New York, NY",
+      "Time": "2019",
+      "Tags": "Grasshopper Plugin, C#"
+  },
+  "body": [
+    {
+      "type": "PostText",
+      "text": "This Rhino/Grasshopper plugin allows you to easily create 3d content for the web. It does this by creating bindings between RhinoCommon's scene representatin to a three.js scene representation."
+    },
+    {
+      "type": "PostButton",
+      "text": "Triceratops on Food4Rhino",
+      "link": "https://www.food4rhino.com/en/app/triceratops"
+    },
+    {
+      "type": "PostButton",
+      "text": "Github",
+      "link": "https://github.com/meliharvey/triceratops"
+    }
+  ]
+}
