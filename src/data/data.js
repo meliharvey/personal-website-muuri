@@ -22,6 +22,14 @@ const data = [
     "postLocation": "telus"
   },
   {
+    "type": "writing",
+    "title": "After Retreat: Buyout Programs and Local Planning Goals after Hurricane Sandy",
+    "body": "This paper won the Top Thesis Prize for MIT DUSP's class of 2017. It documented the contentious efforts of New York and New Jersey to purchase badly damaged homes after Hurricane Sandy. The paper studies how county and municipal governments were, or were not, able to leverage buyouts for local planning agendas.",
+    "image": "buyouts.jpg",
+    "hasPost": true,
+    "postLocation": "buyouts"
+  },
+  {
     "type": "design",
     "title": "Harlem",
     "body": "",
@@ -38,12 +46,11 @@ const data = [
     "postLocation": "city_generator"
   },
   {
-    "type": "writing",
-    "title": "After Retreat: Buyout Programs and Local Planning Goals after Hurricane Sandy",
-    "body": "This paper won the Top Thesis Prize for MIT DUSP's class of 2017. It documented the contentious efforts of New York and New Jersey to purchase badly damaged homes after Hurricane Sandy. The paper studies how county and municipal governments were, or were not, able to leverage buyouts for local planning agendas.",
-    "image": "buyouts.jpg",
-    "hasPost": true,
-    "postLocation": "buyouts"
+    "type": "about",
+    "title": "Bio",
+    "body": "Amelia (Meli) has a background in urban planning, regional planning, public policy, architecture, computational design, software development, web development, entrepreneurship, digital fabrication, and sculpture. This combination of vocations has given her a trans-disciplinary approach to problem solving that's equally rooted in design, policy, and product development.",
+    "image": "headshot_2019.jpg",
+    "hasPost": false
   },
   {
     "type": "tech",
@@ -62,13 +69,6 @@ const data = [
     "postLocation": "places"
   },
   {
-    "type": "about",
-    "title": "Bio",
-    "body": "Amelia (Meli) has a background in urban planning, regional planning, public policy, architecture, computational design, software development, web development, entrepreneurship, digital fabrication, and sculpture. This noxious brew of vocations has given her a trans-disciplinary approach to problem solving that's equally rooted in design, policy, and product development.",
-    "image": "headshot_2019.jpg",
-    "hasPost": false
-  },
-  {
     "type": "design",
     "title": "Florida Rising",
     "body": "",
@@ -85,14 +85,6 @@ const data = [
     "postLocation": "threescaper"
   },
   {
-    "type": "tech",
-    "title": "Triceratops",
-    "body": "",
-    "image": "triceratops.jpg",
-    "hasPost": true,
-    "postLocation": "triceratops"
-  },
-  {
     "type": "writing",
     "title": "How to Generate a Thousand Masterplans",
     "body": "This paper, published in the journal Simulation for Architecutre and Urban Design (SimAUD), documents a method of automating the generation of urban form, and analyzing that form based on a set of metrics. The result in a 'design space' that can aid in decision making for large urban planning efforts.",
@@ -102,11 +94,11 @@ const data = [
   },
   {
     "type": "tech",
-    "title": "City Paint",
+    "title": "Triceratops",
     "body": "",
-    "image": "city_paint.png",
+    "image": "triceratops.jpg",
     "hasPost": true,
-    "postLocation": "city_paint"
+    "postLocation": "triceratops"
   },
   {
     "type": "design",
@@ -121,6 +113,14 @@ const data = [
     "title": "Education",
     "body": "Amelia has a Master in City Planning from MIT and a Bachelor of Architecture from Syracuse University. Please download the her resume from the menu for a full list of education, experience and accomplishments.",
     "hasPost": false
+  },
+  {
+    "type": "tech",
+    "title": "City Paint",
+    "body": "",
+    "image": "city_paint.png",
+    "hasPost": true,
+    "postLocation": "city_paint"
   },
   {
     "type": "tech",

@@ -26,7 +26,7 @@
 
             <!-- Menu-->
             <div id="brand" class="col-12 d-flex justify-content-between h-100 pt-3 px-3 m-0">
-              <h2 class="flex-grow-1 text-dark m-0">Amelia Harvey</h2>
+              <h2 class="flex-grow-1 text-dark m-0">Meli Harvey</h2>
               <b-button v-b-toggle.collapse-1 variant="outline-dark">Menu</b-button>
             </div>
           </div>
@@ -39,7 +39,7 @@
 
             <!-- Menu-->
             <div id="brand" class="col-12 d-flex justify-content-between pt-3 px-3 m-0">
-              <h2 class="flex-grow-1 text-dark m-0">Amelia Harvey</h2>
+              <h2 class="flex-grow-1 text-dark m-0">Meli Harvey</h2>
             </div>
 
             <!-- Menu when screen size is md, lg, or xl -->
@@ -58,7 +58,7 @@
               <div>
                 <p class="m-0">Links</p>
 
-                <b-button variant="outline-dark" href="https://www.github.com/meliharvey" class="my-1">Github</b-button>
+                <b-button variant="outline-dark" href="https://www.github.com/meliharvey" target='_blank' class="my-1">Github</b-button>
                 <br>
                 <b-button variant="outline-dark" :href="download('MeliHarvey_CV_2022.pdf')" target='_blank' class="my-1">Resume</b-button>
                 
@@ -129,13 +129,13 @@ export default {
           visible: true,
           selected: false
         },
-        design: {
-          name: 'Design',
+        tech: {
+          name: 'Tech',
           visible: true,
           selected: false
         },
-        tech: {
-          name: 'Tech',
+        design: {
+          name: 'Design',
           visible: true,
           selected: false
         },
