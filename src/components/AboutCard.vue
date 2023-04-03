@@ -1,5 +1,5 @@
 <template>
-<div class="item about-item">
+  <div @click="recordDragEnd" class="item about-item">
     <div class="item-content drop-shadow about card about-card active p-5">
 
       <div class="about-card-header">
@@ -12,7 +12,6 @@
           <p class="mb-0">{{ data.body }}</p>
         </div>
       </div>
-
     </div>
   </div>
 </template>
@@ -21,17 +20,32 @@
 export default {
   name: "about",
   props: ['data'],
+  data () {
+    return {
+      dragStart: null,
+    }
+  },
   methods: {
     getImgUrl: function() {
       if (this.data.image) {
         return require('../assets/' + this.data.image)
       }
     },
-    togglePost: function(callback) {
-      this.postVisible = !this.postVisible;
-      this.currentPost = require('../assets/posts/' + this.data.postLocation + '/post.json')
-      callback();
+    recordDragStart: function(e) {
+      this.dragStart = e;
     },
+    recordDragEnd: function(e) {
+      console.log('mouseup', e);
+      console.log(e.clientX, this.dragStart.clientX)
+      if (e.clientX != this.dragStart.clientX || e.clientY != this.dragStart.clientY ) {
+        console.log('dragged');
+      } else {
+        this.$parent.filter(this.$options.name);
+      }
+    },
+  },
+  mounted: function() {
+    window.addEventListener('mousedown', this.recordDragStart)
   }
 }
 </script>

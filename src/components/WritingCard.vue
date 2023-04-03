@@ -1,45 +1,33 @@
 <template>
-  <div :id="data.postLocation" @click="recordDragEnd" :class="{ expanded: postVisible }" class="item writing-item">
+  <div @click="recordDragEnd" class="item writing-item">
     <div class="item-content drop-shadow writing writing-card bg-white p-4">
-
       <div class="writing-card-header">
         <div class="writing-image pr-3">
           <div class="image-container" :style="{ 'background-image': 'url(' + getImgUrl() + ')'}">
           </div>
         </div>
-        <div class="">
+        <div>
           <h4>{{ data.title }}</h4>
           <p>{{ data.body }}</p>
         </div>
       </div>
-
-      <post
-        v-if="postVisible"
-        :location="data.postLocation"
-        :data="currentPost"
-        >
-      </post>
     </div>
   </div>
 </template>
 
 <script>
-import Post from '../components/Post.vue'
-
 export default {
   name: "writing",
-  components: {
-    Post
-  },
   props: ['data'],
   data () {
     return {
-      postVisible: false,
-      currentPost: null,
       dragStart: null,
     }
   },
   methods: {
+    getImgUrl: function() {
+      return require('../assets/posts/' + this.data.postLocation + '/images/' + this.data.image)
+    },
     recordDragStart: function(e) {
       this.dragStart = e;
     },
@@ -49,25 +37,9 @@ export default {
       if (e.clientX != this.dragStart.clientX || e.clientY != this.dragStart.clientY ) {
         console.log('dragged');
       } else {
-        this.togglePost(this.refreshGrid);
+        this.$parent.filter(this.$options.name);
       }
     },
-    getImgUrl: function() {
-      return require('../assets/posts/' + this.data.postLocation + '/images/' + this.data.image)
-    },
-    togglePost: function(callback) {
-      this.postVisible = !this.postVisible;
-      this.currentPost = require('../assets/posts/' + this.data.postLocation + '/post.json')
-      callback();
-    },
-    refreshGrid: function() {
-
-      var self = this;
-      setTimeout( function(){
-        self.$parent.grid.refreshItems().layout();
-      }, 1000 );
-
-    }
   },
   mounted: function() {
     window.addEventListener('mousedown', this.recordDragStart)
@@ -94,7 +66,7 @@ export default {
   width: 100%;
 }
 .writing-card-header {
-  height: 180px;
+  // height: 180px;
   overflow: auto;
 }
 .writing-image {

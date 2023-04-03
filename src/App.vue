@@ -96,6 +96,9 @@
               :data="item">
             </component>
           </div>
+          <div class="p-4 mt-5 text-center text-muted">
+            <p><small>© 2022 Amelia Harvey | fork this website <a href="https://github.com/meliharvey/personal-website-muuri">here</a></small></p>
+          </div>
         </div>
       </div>
     </div>
