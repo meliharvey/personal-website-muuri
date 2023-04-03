@@ -388,16 +388,16 @@ b-button {
   transition: box-shadow .15s ease-in-out;
 }
 .about {
-  color: $blue !important;
+  color: $color2 !important;
 }
 .design {
-  color: $yellow !important;
+  color: $color1 !important;
 }
 .tech {
-  color: $pink !important;
+  color: $color3 !important;
 }
 .writing {
-  color: $green !important;
+  color: $color4 !important;
 }
 
 .drop-shadow-menu {
@@ -425,24 +425,24 @@ b-button {
   transition: box-shadow .15s ease-in-out;
 }
 .drop-shadow.about:before {
-  -webkit-box-shadow: 6px 6px 40px 0px $blue !important;
-  -moz-box-shadow: 6px 6px 40px 0px $blue !important;
-  box-shadow: 6px 6px 40px 0px $blue !important;
+  -webkit-box-shadow: 6px 6px 40px 0px $color2 !important;
+  -moz-box-shadow: 6px 6px 40px 0px $color2 !important;
+  box-shadow: 6px 6px 40px 0px $color2 !important;
 }
 .drop-shadow.design:before {
-  -webkit-box-shadow: 6px 6px 40px 0px $yellow !important;
-  -moz-box-shadow: 6px 6px 40px 0px $yellow !important;
-  box-shadow: 6px 6px 40px 0px $yellow !important;
+  -webkit-box-shadow: 6px 6px 40px 0px $color1 !important;
+  -moz-box-shadow: 6px 6px 40px 0px $color1 !important;
+  box-shadow: 6px 6px 40px 0px $color1 !important;
 }
 .drop-shadow.tech:before {
-  -webkit-box-shadow: 6px 6px 40px 0px $pink !important;
-  -moz-box-shadow: 6px 6px 40px 0px $pink !important;
-  box-shadow: 6px 6px 40px 0px $pink !important;
+  -webkit-box-shadow: 6px 6px 40px 0px $color3 !important;
+  -moz-box-shadow: 6px 6px 40px 0px $color3 !important;
+  box-shadow: 6px 6px 40px 0px $color3 !important;
 }
 .drop-shadow.writing:before {
-  -webkit-box-shadow: 6px 6px 40px 0px $green !important;
-  -moz-box-shadow: 6px 6px 40px 0px $green !important;
-  box-shadow: 6px 6px 40px 0px $green !important;
+  -webkit-box-shadow: 6px 6px 40px 0px $color4 !important;
+  -moz-box-shadow: 6px 6px 40px 0px $color4 !important;
+  box-shadow: 6px 6px 40px 0px $color4 !important;
 }
 
 .drop-shadow:hover:before {
@@ -475,24 +475,24 @@ b-button {
 }
 //box-shadow color doesn't default to color in safari
 .btn-drop-shadow.about:before {
-  -webkit-box-shadow: 6px 6px 50px 0px $blue !important;
-  -moz-box-shadow: 6px 6px 50px 0px $blue !important;
-  box-shadow: 6px 6px 50px 0px $blue !important;
+  -webkit-box-shadow: 6px 6px 50px 0px $color2 !important;
+  -moz-box-shadow: 6px 6px 50px 0px $color2 !important;
+  box-shadow: 6px 6px 50px 0px $color2 !important;
 }
 .btn-drop-shadow.design:before {
-  -webkit-box-shadow: 6px 6px 50px 0px $yellow !important;
-  -moz-box-shadow: 6px 6px 50px 0px $yellow !important;
-  box-shadow: 6px 6px 50px 0px $yellow !important;
+  -webkit-box-shadow: 6px 6px 50px 0px $color1 !important;
+  -moz-box-shadow: 6px 6px 50px 0px $color1 !important;
+  box-shadow: 6px 6px 50px 0px $color1 !important;
 }
 .btn-drop-shadow.tech:before {
-  -webkit-box-shadow: 6px 6px 50px 0px $pink !important;
-  -moz-box-shadow: 6px 6px 50px 0px $pink !important;
-  box-shadow: 6px 6px 50px 0px $pink !important;
+  -webkit-box-shadow: 6px 6px 50px 0px $color3 !important;
+  -moz-box-shadow: 6px 6px 50px 0px $color3 !important;
+  box-shadow: 6px 6px 50px 0px $color3 !important;
 }
 .btn-drop-shadow.writing:before {
-  -webkit-box-shadow: 6px 6px 50px 0px $green !important;
-  -moz-box-shadow: 6px 6px 50px 0px $green !important;
-  box-shadow: 6px 6px 50px 0px $green !important;
+  -webkit-box-shadow: 6px 6px 50px 0px $color4 !important;
+  -moz-box-shadow: 6px 6px 50px 0px $color4 !important;
+  box-shadow: 6px 6px 50px 0px $color4 !important;
 }
 .btn-drop-shadow:hover:before {
   -webkit-box-shadow: 5px 5px 15px 0px !important;
