@@ -3,7 +3,7 @@
     <div class="item-content drop-shadow writing writing-card bg-white p-4">
       <div class="writing-card-header">
         <div class="writing-image pr-3">
-          <div class="image-container" :style="{ 'background-image': 'url(' + getImgUrl() + ')'}">
+          <div class="image-container" :style="{ 'background-image': 'url(' + image + ')'}">
           </div>
         </div>
         <div>
@@ -22,11 +22,12 @@ export default {
   data () {
     return {
       dragStart: null,
+      image: '',
     }
   },
   methods: {
     getImgUrl: function() {
-      return require('../assets/posts/' + this.data.postLocation + '/images/' + this.data.image)
+      this.image = require('../assets/posts/' + this.data.postLocation + '/images/' + this.data.image)
     },
     recordDragStart: function(e) {
       this.dragStart = e;
@@ -42,6 +43,7 @@ export default {
     },
   },
   mounted: function() {
+    this.getImgUrl()
     window.addEventListener('mousedown', this.recordDragStart)
   }
 }

@@ -4,7 +4,7 @@
 
       <div class="about-card-header">
         <div v-if="this.data.image" class="about-image pr-3">
-          <div class="image-container" :style="{ 'background-image': 'url(' + getImgUrl() + ')'}">
+          <div class="image-container" :style="{ 'background-image': 'url(' + image + ')'}">
           </div>
         </div>
         <div class="">
@@ -23,12 +23,13 @@ export default {
   data () {
     return {
       dragStart: null,
+      image: '',
     }
   },
   methods: {
     getImgUrl: function() {
       if (this.data.image) {
-        return require('../assets/' + this.data.image)
+        this.image = require('../assets/' + this.data.image)
       }
     },
     recordDragStart: function(e) {
@@ -45,6 +46,7 @@ export default {
     },
   },
   mounted: function() {
+    this.getImgUrl()
     window.addEventListener('mousedown', this.recordDragStart)
   }
 }

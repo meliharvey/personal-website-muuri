@@ -4,7 +4,7 @@
 
       <div :class="{ 'design-card-header-expanded': postVisible }" class="design-card-header">
         <h4>{{ data.title, data.visible }}</h4>
-        <div class="image-container" :style="{ 'background-image': 'url(' + getImgUrl() + ')'}">
+        <div class="image-container" :style="{ 'background-image': 'url(' + image + ')'}">
         </div>
       </div>
 
@@ -32,6 +32,7 @@ export default {
       postVisible: false,
       currentPost: null,
       dragStart: null,
+      image: '',
     }
   },
   methods: {
@@ -48,7 +49,7 @@ export default {
       }
     },
     getImgUrl: function(file) {
-      return require('../assets/posts/' + this.data.postLocation + '/images/' + this.data.image)
+      this.image = require('../assets/posts/' + this.data.postLocation + '/images/' + this.data.image)
     },
     togglePost: function(callback) {
       if (this.postVisible) {
@@ -83,6 +84,7 @@ export default {
     }
   },
   mounted: function() {
+    this.getImgUrl()
     window.addEventListener('mousedown', this.recordDragStart)
   }
 }
@@ -102,10 +104,10 @@ img {
   min-height: 300px;
   margin: 15px;
   box-sizing: border-box;
-  transition: width .5s ease, height .5s ease;
+  transition: max-width .6s ease, height .6s ease;
 }
 .expanded {
-  width: 95% !important;
+  max-width: 900px;
 }
 .design-card {
   width: 100%;
