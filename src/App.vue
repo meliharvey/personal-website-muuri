@@ -60,9 +60,9 @@
 
                 <b-button variant="outline-dark" href="https://www.github.com/meliharvey" target='_blank' class="my-1">Github</b-button>
                 <br>
-                <b-button variant="outline-dark" href="https://www.instagram.com/tranopticon/" target='_blank' class="my-1">Instagram</b-button>
+                <b-button variant="outline-dark" href="https://www.instagram.com/meltyopolis/" target='_blank' class="my-1">Instagram</b-button>
                 <br>
-                <b-button variant="outline-dark" :href="download('MeliHarvey_CV_2022.pdf')" target='_blank' class="my-1">Resume</b-button>
+                <b-button variant="outline-dark" :href="download('MeliHarvey_CV_2023.pdf')" target='_blank' class="my-1">Resume</b-button>
                 
               </div>
 

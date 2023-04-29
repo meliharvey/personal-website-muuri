@@ -31,7 +31,7 @@ const data = [
   },
   {
     "type": "design",
-    "title": "Harlem",
+    "title": "The Smile",
     "body": "",
     "image": "harlem_Checker_Pattern_small.jpg",
     "hasPost": true,
@@ -87,7 +87,7 @@ const data = [
   {
     "type": "writing",
     "title": "How to Generate a Thousand Masterplans",
-    "body": "This paper, published in the journal Simulation for Architecutre and Urban Design (SimAUD), documents a method of automating the generation of urban form, and analyzing that form based on a set of metrics. The result in a 'design space' that can aid in decision making for large urban planning efforts.",
+    "body": "This paper, published in the journal Simulation for Architecture and Urban Design (SimAUD), documents a method of automating the generation of urban form, and analyzing that form based on a set of metrics. The result in a 'design space' that can aid in decision making for large urban planning efforts.",
     "image": "curbd.png",
     "hasPost": true,
     "postLocation": "curbd"
