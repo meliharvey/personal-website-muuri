@@ -74,9 +74,9 @@ export default {
 @import "../variables";
 
 .tech-item {
-  min-width: 400px;
-  width: 0%;
-  max-width: 960px;
+  min-width: 300px;
+  width: 95%;
+  max-width: 400px;
   min-height: 300px;
   margin: 15px;
   box-sizing: border-box;

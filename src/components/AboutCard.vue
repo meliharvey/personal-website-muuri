@@ -58,7 +58,7 @@ export default {
 // }
 
 .about-item {
-  min-width: 400px;
+  min-width: 300px;
   width: 95%;
   max-width: 800px;
   min-height: 200px;
